@@ -3,7 +3,7 @@ print("hello world")
 # 2. greet関数を実装し、「こんにちは」と出力するようにしてください。関数を呼び出して、実際に出力されることを確認してください。
 def greet():
     return "こんにちは"
-greet()
+print(greet())
 # 3. nameを引数に取り、「私の名前は{name}です」と出力するprint_name関数を実装し、関数を呼び出して動作を確認してください。
 name = input("enter your name here")
 def print_name(name):
